@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
+    android:gravity="center"
     tools:context=".OrderActivity">
 
         <!-- Judul Halaman -->
@@ -27,6 +28,13 @@
             android:text="Food Name"
             android:textSize="18sp"
             android:layout_marginBottom="8dp"/>
+        <EditText
+            android:id="@+id/etFoodDescription"
+            android:layout_width ="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter food description"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"/>
         <TextView
             android:id="@+id/etFoodName"
             android:layout_width="match_parent"
